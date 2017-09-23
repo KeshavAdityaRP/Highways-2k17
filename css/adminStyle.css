@@ -1,0 +1,44 @@
+.container{
+	width: 90%;
+	padding: 1%;
+}
+
+nav{
+	background-color: #ffffff;
+}
+
+nav .brand-logo{
+	color: #26a69a;
+}
+
+#triple{
+	color: #26a69a;
+}
+
+h1{
+	text-align: center;
+	font-size: xx-large;
+}
+h2{
+	text-align: center;
+	font-size: x-large;
+}
+.row{
+	padding: 2%;
+
+}
+table{
+	
+}
+
+td{
+
+}
+
+tr:nth-child(even){
+	background: #CCC;
+}
+tr:nth-child(odd){
+	background: #FFF;
+}
+

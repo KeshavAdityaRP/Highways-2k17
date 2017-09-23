@@ -1,0 +1,404 @@
+
+.container{
+  padding: 5%;
+}
+
+#city{
+  background: url(../images/city-background1.png) no-repeat center center;
+  height: 4762px;
+  -webkit-background-size: 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+.navbar-fixed{
+  background-color: transparent;
+  /*background-color: #00BCD4;*/
+}
+
+nav{
+  background-color: transparent;
+  /*background-color: #00BCD4;*/
+}
+
+nav .brand-logo{
+ color: #26a69a;
+ color: #000000;
+}
+
+#car{
+  position:fixed;
+  top: 45%;
+  left: 42%;
+  width: 18%;
+  -ms-transform: rotate(270deg); /* IE 9 */
+  -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+  transform: rotate(270deg);
+}
+
+#triple{
+  color: #26a69a;
+}
+
+.events{
+  display: none;
+  position: absolute;
+  width: 17%;
+}
+
+/*
+.vessel{
+  position: absolute;
+  width: 100%;
+}
+
+#v1{
+  top: 150%;
+  left: 4%;
+}
+*/
+
+#b1{
+  position: absolute;
+  top: 150%;
+  left: 4%;
+  z-index: 1;  
+}
+
+#e1{
+  opacity: 0.9;
+  top: 150%;
+  left: 4%;
+}
+
+#e2{
+  opacity: 0.9;
+  top: 150%;
+  right: 4%;
+}
+#b2{
+  position: absolute;
+  top:150%;
+  right: 4%;
+  z-index: 1;
+}
+#b3{
+  position: absolute;
+  top: 200%;
+  left: 4%;
+  z-index: 1;  
+}
+
+#e3{
+  opacity: 0.9;
+  top: 200%;
+  left: 4%;
+}
+
+#e4{
+  opacity: 0.9;
+  top: 200%;
+  right: 4%;
+}
+#b4{
+  position: absolute;
+  top:200%;
+  right: 4%;
+  z-index: 1;
+
+}
+#b5{
+  position: absolute;
+  top: 250%;
+  left: 4%;
+  z-index: 1;  
+}
+#e5{
+  opacity: 0.9;
+  top: 250%;
+  left: 4%;
+}
+
+#e6{
+  top: 250%;
+  right: 4%;
+  opacity: 0.9;
+}
+#b6{
+  position: absolute;
+  top:250%;
+  right: 4%;
+  z-index: 1;
+
+}
+#b7{
+  position: absolute;
+  top: 300%;
+  left: 4%;
+  z-index: 1;  
+}
+#e7{
+  top: 300%;
+  left: 4%;
+  opacity: 0.9;
+}
+
+#e8{
+  top: 300%;
+  right: 4%;
+  opacity: 0.9;
+}
+#b8{
+  position: absolute;
+  top:300%;
+  right: 4%;
+  z-index: 1;
+
+
+}
+#b9{
+  position: absolute;
+  top: 350%;
+  left: 4%;
+  z-index: 1;  
+}
+#e9{
+  top: 350%;
+  left: 4%;
+  opacity: 0.9;
+}
+
+#e10{
+  top: 350%;
+  right: 4%;
+  opacity: 0.9;
+
+}
+#b10{
+  position: absolute;
+  top:350%;
+  right: 4%;
+  z-index: 1;
+}
+#e11{
+  top: 400%;
+  left: 4%;
+  opacity: 0.9;
+}
+#b11{
+  position: absolute;
+  top: 400%;
+  left: 4%;
+  z-index: 1;  
+}
+
+#e12{
+  top:400%;
+  right: 4%;
+  opacity: 0.9;
+}
+#b12{
+  position: absolute;
+  top:400%;
+  right: 4%;
+  z-index: 1;
+}
+#e13{
+  top: 450%;
+  left: 4%;
+  opacity: 0.9;
+}
+#b13{
+  position: absolute;
+  top: 450%;
+  left: 4%;
+  z-index: 1;  
+}
+#e14{
+  top:450%;
+  right: 4%;
+  opacity: 0.9;
+}
+#b14{
+  position: absolute;
+  top:450%;
+  right: 4%;
+  z-index: 1;
+}
+
+#e15{
+  top: 500%;
+  left: 4%;
+  opacity: 0.9;
+}
+#b15{
+  position: absolute;
+  top: 500%;
+  left: 4%;
+  z-index: 1;  
+}
+
+
+
+@media only screen and (max-width : 768px){  
+
+  #city{
+    background: url(../images/city-background.jpg) no-repeat center center;
+    height: 6000px;
+    -webkit-background-size: 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  }
+  #b1{
+    position: absolute;
+    top: 161%;
+    left: 4%;
+    height:5%;
+    z-index: 1;  
+  }
+  #b2{
+    position: absolute;
+    top:161%;
+    right: 4%;
+    height:5%;
+    z-index: 1;
+  }
+  #b3{
+    position: absolute;
+    top: 211%;
+    left: 4%; 
+    height:5%;
+
+    z-index: 1;  
+  }
+  #b4{
+    position: absolute;
+    top:211%;
+    right: 4%;
+    height:5%;
+
+    z-index: 1;
+
+  }
+  #b5{
+    position: absolute;
+    top: 261%;
+    left: 4%;
+    z-index: 1;  
+    height:5%;
+
+  }
+  #b6{
+    position: absolute;
+    top:261%;
+    right: 4%;
+    z-index: 1;
+    height:5%;
+
+
+  }
+  #b7{
+    position: absolute;
+    top: 311%;
+    left: 4%;
+    z-index: 1;  
+    height:5%;
+
+  }
+  #b8{
+    position: absolute;
+    top:311%;
+    right: 4%;
+    z-index: 1;
+    height:5%;
+
+
+
+  }
+  #b9{
+    position: absolute;
+    top: 361%;
+    left: 4%;
+    z-index: 1;  
+    height:5%;
+
+  }
+  #b10{
+    position: absolute;
+    top:361%;
+    right: 4%;
+    z-index: 1;
+    height:5%;
+
+  }
+  #b11{
+    position: absolute;
+    top: 411%;
+    left: 4%;
+    z-index: 1; 
+    height:5%;
+
+  }
+  #b12{
+    position: absolute;
+    top:411%;
+    right: 4%;
+    z-index: 1;
+    height:5%;
+
+  }
+  #b13{
+    position: absolute;
+    top: 461%;
+    left: 4%;
+    z-index: 1;
+    height:5%;
+    height:5%;
+
+  }
+  #b14{
+    position: absolute;
+    top:461%;
+    right: 4%;
+    z-index: 1;
+    height:5%;
+
+  }
+  #b15{
+    position: absolute;
+    top: 511%;
+    left: 4%;
+    z-index: 
+    height:5%;
+
+  }
+
+} 
+
+h4{
+  color: #26a69a;
+}
+.sec1{
+  font-size: large;
+  
+
+}
+
+.sec2{
+   font-size: medium;
+   color: #26a69a;
+}
+
+tr{
+  color: #26a69a;
+}
+
+
+
+
+
+
+
+
